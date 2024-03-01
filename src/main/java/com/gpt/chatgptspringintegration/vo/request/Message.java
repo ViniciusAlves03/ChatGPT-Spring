@@ -1,9 +1,13 @@
 package com.gpt.chatgptspringintegration.vo.request;
 
-public class Message {
+import java.io.Serializable;
+
+public class Message implements Serializable{
 
     private String role;
     private String content;
+
+    public Message() {}
 
     public Message(String role, String content) {
         this.role = role;

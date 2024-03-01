@@ -8,6 +8,9 @@ public class ChatGptRequest implements Serializable{
 
     private String model;
     private List<Message> messages;
+
+    public ChatGptRequest() {}
+
     public ChatGptRequest(String model, String prompt) {
         this.model = model;
         this.messages = new ArrayList<>();
