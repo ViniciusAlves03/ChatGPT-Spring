@@ -1,8 +1,8 @@
-# REST API's RESTFul do 0 à AWS c. Spring Boot 3 Java e Docker
+# ChatGPT - Spring
 
 Esse repositório foi criado com a intenção de desenvolver uma simples integração do spring com o ChatGPT, onde o usuário envia uma pergunta e recebe uma resposta gerada pelo ChatGPT.
 
-Para utilizá-lo é preciso ter uma conta, com menos de 2 meses de criação, na OpenAI, gerar o token na OpenAI e atribuí-lo a uma variável de ambiente criada com o nome de OPENAI_API_KEY.
+Para utilizá-lo é preciso ter uma conta, com menos de 2 meses de criação na OpenAI, gerar o token na OpenAI e atribuí-lo a uma variável de ambiente criada com o nome de OPENAI_API_KEY.
 
 # Tecnologias utilizadas
 
